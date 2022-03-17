@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "kattana-news"
+version = "21.3.16"
+description = "Model news classification"
+authors = ["Alex-Lekov <61644712+Alex-Lekov@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.4.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^22.1.0"
+poetry2setup = "^1.0.0"
+matplotlib = "^3.5.1"
+tqdm = "^4.63.0"
+fastai = "^2.5.3"
+scikit-learn = "^1.0.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

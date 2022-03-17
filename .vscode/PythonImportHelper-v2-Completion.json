@@ -1,0 +1,63 @@
+[
+    {
+        "label": "__version__",
+        "importPath": "kattana_news",
+        "description": "kattana_news",
+        "isExtraImport": true,
+        "detail": "kattana_news",
+        "documentation": {}
+    },
+    {
+        "label": "setup",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "test_version",
+        "kind": 2,
+        "importPath": "tests.test_kattana_news",
+        "description": "tests.test_kattana_news",
+        "peekOfCode": "def test_version():\n    assert __version__ == '21.3.16'",
+        "detail": "tests.test_kattana_news",
+        "documentation": {}
+    },
+    {
+        "label": "packages",
+        "kind": 5,
+        "importPath": "setup",
+        "description": "setup",
+        "peekOfCode": "packages = \\\n['kattana_news']\npackage_data = \\\n{'': ['*']}\ninstall_requires = \\\n['pandas>=1.4.1,<2.0.0']\nsetup_kwargs = {\n    'name': 'kattana-news',\n    'version': '21.3.16',\n    'description': 'Model news classification',",
+        "detail": "setup",
+        "documentation": {}
+    },
+    {
+        "label": "package_data",
+        "kind": 5,
+        "importPath": "setup",
+        "description": "setup",
+        "peekOfCode": "package_data = \\\n{'': ['*']}\ninstall_requires = \\\n['pandas>=1.4.1,<2.0.0']\nsetup_kwargs = {\n    'name': 'kattana-news',\n    'version': '21.3.16',\n    'description': 'Model news classification',\n    'long_description': None,\n    'author': 'Alex-Lekov',",
+        "detail": "setup",
+        "documentation": {}
+    },
+    {
+        "label": "install_requires",
+        "kind": 5,
+        "importPath": "setup",
+        "description": "setup",
+        "peekOfCode": "install_requires = \\\n['pandas>=1.4.1,<2.0.0']\nsetup_kwargs = {\n    'name': 'kattana-news',\n    'version': '21.3.16',\n    'description': 'Model news classification',\n    'long_description': None,\n    'author': 'Alex-Lekov',\n    'author_email': '61644712+Alex-Lekov@users.noreply.github.com',\n    'maintainer': None,",
+        "detail": "setup",
+        "documentation": {}
+    },
+    {
+        "label": "setup_kwargs",
+        "kind": 5,
+        "importPath": "setup",
+        "description": "setup",
+        "peekOfCode": "setup_kwargs = {\n    'name': 'kattana-news',\n    'version': '21.3.16',\n    'description': 'Model news classification',\n    'long_description': None,\n    'author': 'Alex-Lekov',\n    'author_email': '61644712+Alex-Lekov@users.noreply.github.com',\n    'maintainer': None,\n    'maintainer_email': None,\n    'url': None,",
+        "detail": "setup",
+        "documentation": {}
+    }
+]
