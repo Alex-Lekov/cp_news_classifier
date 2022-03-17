@@ -127,3 +127,13 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+
+notebooks/bert_model_weights.h5
+notebooks/catboost_info/*
+notebooks/bert_model_weights_v2.h5
+.gitignore
+notebooks/catboost_info/learn/events.out.tfevents
+notebooks/catboost_info/catboost_training.json
+notebooks/catboost_info/time_left.tsv
