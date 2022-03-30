@@ -1,0 +1,11 @@
+MAX_LENGTH: 50
+MODEL_NAME: distilbert-base-uncased
+TEGS:
+- release_points
+- technical_update_points
+- partnership_points
+- listing_points
+- security_points
+- from_the_project
+- not_from_the_project
+- staking

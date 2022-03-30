@@ -1,0 +1,6 @@
+version: '3'
+services:
+  kattana_news:
+    build: .
+    ports:
+      - 8008:8008
