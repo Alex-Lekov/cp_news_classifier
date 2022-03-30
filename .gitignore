@@ -141,3 +141,7 @@ notebooks/catboost_info/catboost_training.json
 .gitignore
 notebooks/bert_model_weights-2.h5
 notebooks/bert_model_weights-2_v2.h5
+kattana_news/model.h5
+notebooks/model.h5
+.vscode/*
+.vscode/PythonImportHelper-v2-Completion.json
