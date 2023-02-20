@@ -1,23 +1,24 @@
-# Service for news classification
+# Service for news classification 
+use DeepLearning models and FastAPI
 
 ## About
 
 ------
 
-### Цель проекта
+### Project goal
 
-Предоставить клиентам компании автоматическую аналитику новостей.
-Аналитика предоставляется в виде установки определенных тегов к каждой ности для того чтобы можно было быстро понять к какому типу относиться данная новость.
+Provide the company's clients with automatic news analytics.
+Analytics is provided in the form of setting specific tags for each news item so that you can quickly understand what type of news this news belongs to.
 
-### Конечный продукт
+### Final product
 
-Микросервис в докере, который получает по REST API запрос с текстом новости и отдает теги для этой новости.
+Microservice in docker, which receives a REST API request with the text of the news and gives tags for this news.
 
 ## API
 
-Через Post запрос на порт 8008 отправляем текст, в ответ получаем лист из тегов и текст
+We send a text via a Post request to port 8008, in response we receive a sheet of tags and text
 
-Пример:
+Example:
 
 ```python
 import requests
@@ -31,7 +32,7 @@ result = requests.post(
 print(result.json())
 ```
 
-Результат:
+Result:
 
 ```
 {'text': '@LuckyBartlett We ll be releasing details soon, including for those who held LP tokens, apologies for the delay',
